@@ -1,229 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>web design</title>
+    <title>Wed development and design. Discount prices, responsive</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Charm:wght@400;700&family=Croissant+One&family=Lugrasimo&family=Merienda:wght@300..900&family=Rubik+Glitch&family=Sixtyfour+Convergence&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!--nav-->
-    <nav class="level has-background-dark">
-      <p class="level-item has-text-centered">
-        <a class="link has-text-white" href="index.html#gallary">Gallary</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link has-text-white" href="index.html#services">Services</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <img src="./TIQr.gif" style="max-height: 75px">
-       
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link has-text-white" href="index.html#about">About</a>
-      </p>
-      <p class="level-item has-text-centered">
-        <a class="link has-text-white" href=index.html#contact ">Contact</a>
-      </p>
-    </nav>    
-    <!--hero-->
-    <section class="hero is-large">
-        <div class="hero-body">
-          <p class="title is-1 has-text-centered pb-5">interStellar</p>
-          <h2 class="subtitle is-1 has-text-white has-text-centered mt-3">Discover the Extraordinary</h2>
-        </div>
-    </section>
-    <!--services-->
-    <section id="services" class="section is-small">
-        <div class="glitch">
-        <h1 class="title is-1 has-text-centered pt-5">Services</h1>
-        </div>
-        </section>
   
-        <section class="section">
-          <div class="columns">
-              <div class="column is-4">
-                  <div class="card">
-                      <div class="card">
-                          <div class="card-image">
-                            <figure class="image">
-                              <img
-                                src="./stockvault-connectivity-idea-with-lightbulb174254.jpg"
-                                alt="Placeholder image"
-                              />
-                            </figure>
-                          </div>
-                          <div class="card-content">
-                            <div class="media">
-                              <div class="media-left">
-                                
-                              </div>
-                              <div class="media-content">
-                                <p class="title is-4 has-text-centered">SEO</p>
-                              </div>
-                            </div>
-                        
-                            <div class="content">
-                              SEO or search engine optimization. Help's your website to be noticed and seen via search result's
-                            </div>
-                          </div>
+    <!--navbar-->
+  <nav class="navbar">
+    <div class="navbar-brand">
+        <a class="navbar-item">
+            <img src="./dalle.jpg" alt="web design" style="max-height: 75px"> 
+         </a>
+    </div>
+    <div class="navbar-burger" data-target="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+      
+  </div>
+</div>
+<div id="navMenu" class="navbar-menu">
+    
+        <div class="navbar-end">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="#about">About</a>
+            <a class="navbar-item" href="#projects">My Projects</a>
+        </div>
+    </div>
+    
+  </nav>
+  <!--hero-->
+  <div class="hero is-large">
+    <div class="hero-body has-text-centered">
+      <div class="glow-text"> <h1 class="title is-1">Design's From The Digital Universe</h1></div>
+      <div class="buttons is-centered">
+        <button class="button is-light is-outlined" onclick="document.getElementById('contact-modal').classList.add('is-active')">
+            Contact Me
+        </button>
+        </div>
+    </div>
+  </div>
+  <section class="section" id="about">
+    <h2 class="title is-1 has-text-centered">Welcome</h2>
+  </section>
+  <section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-5">
+                <img src="./dalle.jpg">
+            </div>
+            <div class="column is-7 has-text-centered">
+                <h2 class="title is-1 has-text-centered">A practical, user friendly experiance</h2>
+                <p>Welcome to interstellar design's! I specialize in creating practical, user-friendly designs that bring your vision to life. Whether you're starting fresh or looking to revamp your brand, I’m here to help you craft a compelling image that stands out and resonates with your audience.
+                     From thoughtful design solutions to building a cohesive identity, my goal is to make the creative process seamless and inspiring, turning your ideas into a reality you can be proud of. Let’s collaborate and bring your brand to life!
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+        <h2 class="title has-text-centered">My Projects</h2>
+        <div class="columns is-multiline">
+            <div class="column is-4">
+                <div class="card project-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./Screenshot from 2024-12-01 15-44-06.png" alt="Project 1">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3 class="title is-5 has-text-centered">Web App</h3>
+                            <p>Responsive web application built with modern technologies.</p>
                         </div>
-                  </div>
-              </div>
-          <div class="column is-4">
-              <div class="card">
-                  <div class="card-image">
-                    <figure class="image">
-                      <img
-                        src="./picpic.jpg"
-                        alt="Placeholder image"
-                      />
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                       
-                      </div>
-                      <div class="media-content has-text-centered">
-                        <p class="title is-4">Web Design</p>
-                      </div>
                     </div>
-                
-                    <div class="content">
-                     Responsive, modern, yet user friendly design's helping your business grow. Not only eye catching, but user friendly, for easy navigation and use.
-                    </div>
-                  </div>
                 </div>
-          </div>
-          <div class="column is-4">
-              <div class="card">
-                  <div class="card-image">
-                    <figure class="image">
-                      <img
-                        src="./stockvault-black-keyboard104798.jpg"
-                        alt="Placeholder image"
-                      />
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                      </div>
-                      <div class="media-content">
-                        <p class="title is-4 has-text-centered">UI/UX</p>
-                      </div>
-                    </div>
-                    <div class="content has-text-centered">
-                     User friendly, modern UI/UX design's. Modern and appealing while keeping the experiance simple and easy. Avoid UI's that may have all bells and whistle's, but lacks userability
-                    </div>
-                  </div>
-                </div>
-          </div>
-          </div>
-        </section>
-         <!--about-->
-         <section id="about" class="section is-small mb-6">
-          <div class="glitch">
-          <h1 class="title is-1 has-text-centered">About</h1>
-          </div>
-         </section>
-        <section class="section">
-          <div class="columns">
-            <div class="column is-4">
-              <h1 class="title is-1 has-text-centered">My Passion</h1>
-              <p>In an ever-evolving digital landscape, my passion for technology is not just about innovation; it’s about connection and empowerment. I believe that technology has the incredible potential to bridge gaps, enhance lives, and create opportunities for individuals from all walks of life.</p>
             </div>
             <div class="column is-4">
-              <img src="./TIQr.gif">
+                <div class="card project-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./Screenshot from 2024-12-03 14-28-06.png" alt="Project 2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3 class="title is-5 has-text-centered">Mobile Design</h3>
+                            <p>Elegant mobile application interface design.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="column is-4">
-              <h1 class="title is-1 has-text-centered">My Story</h1>
-              <p>From a young age, I was captivated by the ways in which technology can simplify complex tasks and bring people together. Whether it was coding my first website or troubleshooting a friend’s computer issue, I found joy in using my skills to solve problems and make life a little easier for others. This passion has only deepened over the years, evolving into a commitment to harness technology as a tool for positive change. One of the most fulfilling aspects of my journey has been the opportunity to help others navigate the digital world.</p>
-            </div>
-          </div>
-        </section>
-        <!--contact-->
-        <section id="contact" class="section is-small">
-          <div class="glitch">
-          <h1 class="title is-1 has-text-centered pt-5">Contact</h1>
-          </div>
-          </section>
-          <section class="mr-6">
-          <form action="https://formsubmit.co/travishenson14@gmail.com" method="POST">
-          <div class="field is-horizontal mr-6">
-            <div class="field-label is-normal">
-              <label class="label">From</label>
-            </div>
-            <div class="field-body">
-              <div class="field mr-6">
-                <p class="control is-expanded has-icons-left">
-                  <input class="input is-success" type="text" placeholder="Name">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-user"></i>
-                  </span>
-                </p>
-              </div>
-              <div class="field">
-                <p class="control is-expanded has-icons-left has-icons-right">
-                  <input class="input is-success" type="email" placeholder="Email">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                  <span class="icon is-small is-right">
-                    <i class="fas fa-check"></i>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="field is-horizontal mr-6">
-            <div class="field-label is-normal">
-              <label class="label">Subject</label>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <input class="input is-success" type="text" placeholder="e.g. Partnership opportunity">
+                <div class="card project-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./Screenshot from 2024-12-03 14-25-55.png" alt="Project 3">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3 class="title is-5 has-text-centered">Visualization</h3>
+                            <p>Putting your visions to life. Launcing your brand into the digital universe.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="field is-horizontal mr-6">
-            <div class="field-label is-normal">
-              <label class="label">Question</label>
-            </div>
-            <div class="field-body">
+        </div>
+    </div>
+</section>
+ <!-- Contact Modal -->
+ <div id="contact-modal" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+      <div class="box">
+          <h2 class="title">Contact Me</h2>
+          <form>
               <div class="field">
-                <div class="control">
-                  <textarea class="textarea is-success placeholder="Explain how I can help you"></textarea>
-                </div>
+                  <label class="label">Name</label>
+                  <div class="control">
+                      <input class="input" type="text" placeholder="Your Name">
+                  </div>
               </div>
-            </div>
-          </div>
-          
-          <div class="field is-horizontal">
-            <div class="field-label">
-              <!-- Left empty for spacing -->
-            </div>
-            <div class="field-body">
               <div class="field">
-                <div class="control">
-                  <button class="button is-primary is-centered">
-                    Send message
-                  </button>
-                </div>
+                  <label class="label">Email</label>
+                  <div class="control">
+                      <input class="input" type="email" placeholder="Your Email">
+                  </div>
               </div>
-            </div>
-          </div>
+              <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                      <textarea class="textarea" placeholder="Your Message"></textarea>
+                  </div>
+              </div>
+              <div class="field">
+                  <div class="control">
+                      <button class="button is-link">Send</button>
+                  </div>
+              </div>
           </form>
-          </section>
+      </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close" onclick="document.getElementById('contact-modal').classList.remove('is-active')"></button>
+</div>
 
-        <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script> 
+<script>
+  // Navbar burger toggle for mobile
+  document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+          });
+      });
+  });
+</script>
+
+
+
   </body>
 </html>
