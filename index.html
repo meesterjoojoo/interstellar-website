@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,6 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Charm:wght@400;700&family=Croissant+One&family=Lugrasimo&family=Merienda:wght@300..900&family=Rubik+Glitch&family=Sixtyfour+Convergence&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <style>
+        .service-card {
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
   </head>
   <body>
   
@@ -31,7 +41,7 @@
         <div class="navbar-end">
             <a class="navbar-item" href="index.html">Home</a>
             <a class="navbar-item" href="#about">About</a>
-            <a class="navbar-item" href="#projects">My Projects</a>
+            <a class="navbar-item" href="#services">Services</a>
         </div>
     </div>
     
@@ -66,52 +76,40 @@
         </div>
     </div>
   </section>
-  <!-- Projects Section -->
-  <section class="section" id="projects">
+  <!-- Services Section -->
+  <section id="services" class="section">
     <div class="container">
-        <h2 class="title has-text-centered">My Projects</h2>
+        <h2 class="title has-text-centered">Our Services</h2>
         <div class="columns is-multiline">
             <div class="column is-4">
-                <div class="card project-card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="./Screenshot from 2024-12-01 15-44-06.png" alt="Project 1">
-                        </figure>
-                    </div>
+                <div class="card service-card">
                     <div class="card-content">
-                        <div class="content">
-                            <h3 class="title is-5 has-text-centered">Web App</h3>
-                            <p>Responsive web application built with modern technologies.</p>
+                        <div class="content has-text-centered">
+                            <i class="fas fa-desktop fa-3x"></i>
+                            <h3 class="title is-4 mt-4">Custom Websites</h3>
+                            <p>Unique, responsive web designs tailored to your brand's identity.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="column is-4">
-                <div class="card project-card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="./Screenshot from 2024-12-03 14-28-06.png" alt="Project 2">
-                        </figure>
-                    </div>
+                <div class="card service-card">
                     <div class="card-content">
-                        <div class="content">
-                            <h3 class="title is-5 has-text-centered">Mobile Design</h3>
-                            <p>Elegant mobile application interface design.</p>
+                        <div class="content has-text-centered">
+                            <i class="fas fa-palette fa-3x"></i>
+                            <h3 class="title is-4 mt-4">Branding</h3>
+                            <p>Create a cohesive visual identity that tells your brand's story.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="column is-4">
-                <div class="card project-card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="./Screenshot from 2024-12-03 14-25-55.png" alt="Project 3">
-                        </figure>
-                    </div>
+                <div class="card service-card">
                     <div class="card-content">
-                        <div class="content">
-                            <h3 class="title is-5 has-text-centered">Visualization</h3>
-                            <p>Putting your visions to life. Launcing your brand into the digital universe.</p>
+                        <div class="content has-text-centered">
+                            <i class="fas fa-file-alt fa-3x"></i>
+                            <h3 class="title is-4 mt-4">Website Templates</h3>
+                            <p>Professional, ready-to-use templates for quick deployment.</p>
                         </div>
                     </div>
                 </div>
